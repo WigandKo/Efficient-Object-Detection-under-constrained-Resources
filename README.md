@@ -8,7 +8,7 @@ The thesis implements a fully supported process to deploy object detection model
 The repository is composed as follows: <br>
 + `Trained Models` includes all trained models for the thesis, including their AP values.<br>
 + `MT_VOC_Preprocessing` is the preprocessing script that prepares the Pascal VOC dataset for training. It resizes and creates train files for model training as well as a ground-truth folder that can be used to evaluate the model.<br>
-+ `test` 
++ `Core-Inference-Files` contains the core parts of the script to execute the TinyEngine inference and X-Cube-AI (tested on STM32H743ZI2)
 <br>
 <br>
 The Table shows the metrics of the MobileNetV2 backbone models.<br>
@@ -56,7 +56,7 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
  1. The dataset has to be preprocessed with the `MT_VOC_Preprocessing` file. It generates consistent-sized images, a train file, a ground-truth file, and a test directory.
  2. A custom model can be designed in the `YOLOv3-Training-Script` files and passed as a method to the train method. The model will be trained, evaluated, and its process documented.
  3. The pre-trained model can be converted to a C-representation using the [STM32Cloud Platform]([https://www.google.com](https://stm32ai-cs.st.com/home).
- 4. The generated project can be added by the content files of .... aiTestPerformance
+ 4. The inference of the generated project can be executed using the process mainly shown in aiTestPerformance from `Core-Inference-Files`. Possible configurations are highlighted in the file for further adaptation.
 
 
 
