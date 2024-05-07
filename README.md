@@ -58,8 +58,7 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
  4. The inference of the generated project can be executed using the process mainly shown in aiTestPerformance from `Core-Inference-Files`. Possible configurations are highlighted in the file for further adaptation.
 <br>
 <br>
-For the trained model files and performance results please visit
-[STM32Cloud Platform](https://stm32ai-cs.st.com/home)
+For the trained model files and performance results please visit [GitHub](https://github.com)
 
 
 
