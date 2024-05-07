@@ -1,5 +1,12 @@
 # Efficient-Object-Detection-under-constrained-Resources
 
+The repository contains the script and files for the thesis: Efficient-Object-Detection-under-constrained-Resources.
+
+The thesis implements a fully supported process to deploy object detection models on the microcontroller. With TensorFlow and X-Cube-AI as frameworks, the process allows to design, train, and deploy object detection models on the microcontroller. Furthermore, the networks MobileNetV2 and MCUNet are employed as YOLOv3 backbones. The YOLOv3 models achieve an mAP of 45.16\% for MobileNetV2 and 48.87\% for MCUNet on the Pascal VOC dataset. 
+
+`test`
+
+
 | Network  | #Params | peak SRAM  | Epochs | mAP  | Latency |
 | ----- | ----- |------- | ----- |------- | ----- |
 |MbV2-r-w1.0-r224-D | 3.75M | 1.2MB | 145 | 44.24% | - |
