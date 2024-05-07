@@ -29,6 +29,12 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
 <br>
 The Table shows the metrics of the MCUNet backbone models.<be>
 
+<details><summary>Does work</summary>
+
+[hi](https://hello.ca)
+
+</details>
+
  ## MCUNet Backbone Models
  
 | Network  | #Params | peak SRAM  | Epochs | mAP  | Latency |
