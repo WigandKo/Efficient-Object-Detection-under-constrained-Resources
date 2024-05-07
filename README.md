@@ -6,9 +6,9 @@ The thesis implements a fully supported process to deploy object detection model
 <br>
 <br>
 The repository is composed as follows: <br>
-`Trained Models` includes all trained models for the thesis, including their AP values.<br>
-`MT_VOC_Preprocessing` is the preprocessing script that prepares the Pascal VOC dataset for training. It resizes and creates train files for model training as well as a ground-truth folder that can be used to evaluate the model.<br>
-`test` 
++ `Trained Models` includes all trained models for the thesis, including their AP values.<br>
++ `MT_VOC_Preprocessing` is the preprocessing script that prepares the Pascal VOC dataset for training. It resizes and creates train files for model training as well as a ground-truth folder that can be used to evaluate the model.<br>
++ `test` 
 
 
 | Network  | #Params | peak SRAM  | Epochs | mAP  | Latency |
