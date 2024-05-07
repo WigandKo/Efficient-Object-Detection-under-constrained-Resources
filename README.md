@@ -29,10 +29,9 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
 <details><summary>Table Notes</summary>
  
 + The metrics contain the 40kB SRAM and 150kB flash for the inference library
-+ Models are trained on 600 epochs using ADAM
++ Models are trained on 600 epochs using ADAM optimizer
 + ReduceOnPlateau with patience = 30 and factor = 0.1
 + EarlyStopping with patience = 30
-+ 
 </details>
 
  ## MCUNet Backbone Models
@@ -48,8 +47,7 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
 <details><summary>Table Notes</summary>
  
 + The metrics contain the 40kB SRAM and 150kB flash for the inference library
-+ Models are trained on 600 epochs using ADAM
++ Models are trained on 600 epochs using ADAM optimizer
 + ReduceOnPlateau with patience = 30 and factor = 0.1
 + EarlyStopping with patience = 30
-+ 
 </details>
