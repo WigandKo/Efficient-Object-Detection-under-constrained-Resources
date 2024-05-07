@@ -12,7 +12,8 @@ The repository is composed as follows: <br>
 <br>
 <br>
 The Table shows the metrics of the MobileNetV2 backbone models.<br>
-It contains the 40kB SRAM and 150kB flash for the inference library.  
+It contains the 40kB SRAM and 150kB flash for the inference library. <br>
+ 
 | Network  | #Params | peak SRAM  | Epochs | mAP  | Latency |
 | ----- | ----- |------- | ----- |------- | ----- |
 |MbV2-r-w1.0-r224-D | 3.75M | 1.2MB | 145 | 44.24% | - |
@@ -24,7 +25,8 @@ It contains the 40kB SRAM and 150kB flash for the inference library.
 |MbV2-l-w0.7-r192-T | 1.67M | 0.499MB | 234 | 42.99% | 463ms |
 <br>
 <br>
-The Table shows the metrics of the MCUNet backbone models.<br>
+The Table shows the metrics of the MCUNet backbone models.<be>
+
 | Network  | #Params | peak SRAM  | Epochs | mAP  | Latency |
 | ----- | ----- |------- | ----- |------- | ----- |
 |MCU-r-w1.0-r224-T |1.33M |0.483MB |156 |45.86% |1031ms|
