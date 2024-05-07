@@ -56,7 +56,7 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
  1. The dataset has to be preprocessed with the `MT_VOC_Preprocessing` file. It generates consistent-sized images, a train file, a ground-truth file, and a test directory.
  2. A custom model can be designed in the `YOLOv3-Training-Script` files and passed as a method to the train method. The model will be trained, evaluated, and its process documented.
  3. The pre-trained model can be converted to a C-representation using the [STM32Cloud Platform]([https://www.google.com](https://stm32ai-cs.st.com/home).
- 4. The generated project can be added by the content files of .... 
+ 4. The generated project can be added by the content files of .... aiTestPerformance
 
 
 
