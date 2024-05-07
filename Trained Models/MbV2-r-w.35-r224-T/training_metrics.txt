@@ -1,0 +1,5 @@
+Training Metrics:
+Total Training Time: 19708.21 seconds
+Validation Loss: 16.4470
+Epochs: 128
+Total Model Parameters: 838073
