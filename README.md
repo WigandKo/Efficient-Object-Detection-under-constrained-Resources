@@ -59,7 +59,7 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
 <br>
 <br>
 For the trained model files and performance results please visit
-[GitHub](https://stm32ai-cs.st.com/home)
+[STM32Cloud Platform](https://stm32ai-cs.st.com/home)
 
 
 
