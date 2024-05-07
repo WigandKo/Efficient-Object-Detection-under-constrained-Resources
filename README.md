@@ -9,8 +9,10 @@ The repository is composed as follows: <br>
 + `Trained Models` includes all trained models for the thesis, including their AP values.<br>
 + `MT_VOC_Preprocessing` is the preprocessing script that prepares the Pascal VOC dataset for training. It resizes and creates train files for model training as well as a ground-truth folder that can be used to evaluate the model.<br>
 + `test` 
-
-
+<br>
+<br>
+The Table shows the metrics of the MobileNetV2 backbone models.<br>
+It contains the 40kB SRAM and 150kB flash for the inference library.  
 | Network  | #Params | peak SRAM  | Epochs | mAP  | Latency |
 | ----- | ----- |------- | ----- |------- | ----- |
 |MbV2-r-w1.0-r224-D | 3.75M | 1.2MB | 145 | 44.24% | - |
@@ -20,7 +22,9 @@ The repository is composed as follows: <br>
 |MbV2-r-w0.7-r224-T | 1.67M | 0.465MB | 241 | 45.16% | 783ms |
 |MbV2-r-w0.7-r288-T | 1.66M | 0.474MB | 172 | 41.45% | 1077ms |
 |MbV2-l-w0.7-r192-T | 1.67M | 0.499MB | 234 | 42.99% | 463ms |
-
+<br>
+<br>
+The Table shows the metrics of the MCUNet backbone models.<br>
 | Network  | #Params | peak SRAM  | Epochs | mAP  | Latency |
 | ----- | ----- |------- | ----- |------- | ----- |
 |MCU-r-w1.0-r224-T |1.33M |0.483MB |156 |45.86% |1031ms|
