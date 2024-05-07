@@ -45,9 +45,22 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
 |MCU-l-w1.0-r192-S |1.59M |0.493MB |127 |41.02% |700ms|
 <br>
 <details><summary>Table Notes</summary>
- 
 + The metrics contain the 40kB SRAM and 150kB flash for the inference library
 + Models are trained on 600 epochs using ADAM optimizer
 + ReduceOnPlateau with patience = 30 and factor = 0.1
 + EarlyStopping with patience = 30
 </details>
+
+ ## Further Usage
+ The following steps have to be employed to use the workflow:
+ 1. The dataset has to be preprocessed with the `MT_VOC_Preprocessing` file. It generates consistent-sized images, a train file, a ground-truth file, and a test directory.
+ 2. A custom model can be designed in the YOLOv3-Training-Script files and passed as a method to the train method. The model will be trained, evaluated, and its process documented.
+ 3. The pre-trained model can be converted to a C-representation using the [STM32Cloud Platform]([https://www.google.com](https://stm32ai-cs.st.com/home).
+ 4. The generated project can be added by the content files of .... 
+
+
+
+
+
+
+
