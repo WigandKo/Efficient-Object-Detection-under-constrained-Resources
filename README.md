@@ -49,7 +49,7 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
 + ReduceOnPlateau with patience = 30 and factor = 0.1
 + EarlyStopping with patience = 30
 </details>
-[GitHub](https://github.com)
+
  ## Further Usage
  The following steps have to be employed to use the workflow:
  1. The dataset has to be preprocessed with the `MT_VOC_Preprocessing` file. It generates consistent-sized images, a train file, a ground-truth file, and a test directory.
@@ -58,7 +58,7 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
  4. The inference of the generated project can be executed using the process mainly shown in aiTestPerformance from `Core-Inference-Files`. Possible configurations are highlighted in the file for further adaptation.
 <br>
 <br>
-For the trained model files and performance results please visit [GitHub](https://github.com)
++For the trained model files and performance results please visit [GitHub](https://github.com)
 
 
 
