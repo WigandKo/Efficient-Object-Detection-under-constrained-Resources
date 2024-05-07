@@ -3,10 +3,10 @@
 The repository contains the script and files for the thesis: Efficient-Object-Detection-under-constrained-Resources.
 
 The thesis implements a fully supported process to deploy object detection models on the microcontroller. With TensorFlow and X-Cube-AI as frameworks, the process allows to design, train, and deploy object detection models on the microcontroller. Furthermore, the networks MobileNetV2 and MCUNet are employed as YOLOv3 backbones. The YOLOv3 models achieve an mAP of 45.16\% for MobileNetV2 and 48.87\% for MCUNet on the Pascal VOC dataset. 
-\
-The repository is composed as follows: \
-`Trained Models` includes all trained models for the thesis, including their AP values.\  
-`MT_VOC_Preprocessing` is the preprocessing script that prepares the Pascal VOC dataset for training. It resizes and creates train files for model training as well as a ground-truth folder that can be used to evaluate the model.\ 
+<br>
+The repository is composed as follows: <br>
+`Trained Models` includes all trained models for the thesis, including their AP values.<br>
+`MT_VOC_Preprocessing` is the preprocessing script that prepares the Pascal VOC dataset for training. It resizes and creates train files for model training as well as a ground-truth folder that can be used to evaluate the model.<br>
 `test` 
 
 
