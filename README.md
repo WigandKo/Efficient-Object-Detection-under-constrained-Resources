@@ -57,9 +57,9 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
  2. A custom model can be designed in the `YOLOv3-Training-Script` files and passed as a method to the train method. The model will be trained, evaluated, and its process documented.
  3. The pre-trained model can be converted to a C-representation using the [STM32Cloud Platform](https://stm32ai-cs.st.com/home).
  4. The inference of the generated project can be executed using the process mainly shown in aiTestPerformance from `Core-Inference-Files`. Possible configurations are highlighted in the file for further adaptation.
-
-
-
+<br>
+<br>
+For the trained model files and performance results please visit [GitHub](https://github.com/WigandKo/Efficient-Object-Detection-under-constrained-Resources/)
 
 
 
