@@ -26,13 +26,13 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
 |MbV2-r-w0.7-r288-T | 1.66M | 0.474MB | 172 | 41.45% | 1077ms |
 |MbV2-l-w0.7-r192-T | 1.67M | 0.499MB | 234 | 42.99% | 463ms |
 <br>
-<br>
-The Table shows the metrics of the MCUNet backbone models.<be>
-
-<details><summary>Does work</summary>
-
-[hi](https://hello.ca)
-
+<details><summary>Table Notes</summary>
+ 
++ The metrics contain the 40kB SRAM and 150kB flash for the inference library
++ Models are trained on 600 epochs using ADAM
++ ReduceOnPlateau with patience = 30 and factor = 0.1
++ EarlyStopping with patience = 30
++ 
 </details>
 
  ## MCUNet Backbone Models
@@ -44,3 +44,12 @@ The Table shows the metrics of the MCUNet backbone models.<be>
 |MCU-r-w1.0-r288-S |1.57M |0.499MB |159 |48.42% |1617ms|
 |MCU-r-w1.0-r192-S |1.60M |0.494MB |184 |43.56% |864ms|
 |MCU-l-w1.0-r192-S |1.59M |0.493MB |127 |41.02% |700ms|
+<br>
+<details><summary>Table Notes</summary>
+ 
++ The metrics contain the 40kB SRAM and 150kB flash for the inference library
++ Models are trained on 600 epochs using ADAM
++ ReduceOnPlateau with patience = 30 and factor = 0.1
++ EarlyStopping with patience = 30
++ 
+</details>
