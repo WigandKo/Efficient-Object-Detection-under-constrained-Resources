@@ -10,7 +10,6 @@ The repository is composed as follows: <br>
 + `MT_VOC_Preprocessing` is the preprocessing script that prepares the Pascal VOC dataset for training. It resizes and creates train files for model training as well as a ground-truth folder that can be used to evaluate the model.<br>
 + `Core-Inference-Files` contains the core parts of the script to execute the TinyEngine inference and X-Cube-AI (tested on STM32H743ZI2)
 <br>
-<br>
 The Table shows the metrics of the MobileNetV2 backbone models.<br>
 It contains the 40kB SRAM and 150kB flash for the inference library. <br>
 
