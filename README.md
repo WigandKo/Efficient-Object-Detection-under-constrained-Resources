@@ -12,7 +12,7 @@ The repository is composed as follows: <br>
 <br>
 The Table shows the metrics of the MobileNetV2 backbone models.<br>
 It contains the 40kB SRAM and 150kB flash for the inference library. <br>
-
++ For the trained model files and performance results please visit [GitHub](https://github.com)
  ## MobileNetV2 Backbone Models
  
 | Network  | #Params | peak SRAM  | Epochs | mAP  | Latency |
@@ -58,7 +58,7 @@ It contains the 40kB SRAM and 150kB flash for the inference library. <br>
  4. The inference of the generated project can be executed using the process mainly shown in aiTestPerformance from `Core-Inference-Files`. Possible configurations are highlighted in the file for further adaptation.
 <br>
 <br>
-+ For the trained model files and performance results please visit [GitHub](https://github.com)
+
 
 
 
